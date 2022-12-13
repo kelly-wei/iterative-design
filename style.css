@@ -167,7 +167,7 @@ h1,h2{
     display: none;
 }
   
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 800px) {
     .nav a:not(:first-child) {display: none;}
     .nav a.icon {
       float: left;
@@ -175,7 +175,7 @@ h1,h2{
     }
 }
   
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 800px) {
     .nav.responsive {position: relative;}
     .nav.responsive .icon {
       position: absolute;
@@ -187,4 +187,10 @@ h1,h2{
       display: block;
       text-align: left;
     }
+}
+
+footer{
+    font-style: italic;
+    text-align: left;
+    font-size: 15px;
 }
